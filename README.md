@@ -5,14 +5,14 @@ A **web-based bus ticket booking system** developed as a **Final Year Project (F
 ---
 
 ## Table of Contents
-- [About the Project](#-about-the-project)
-- [Project Objectives](#-project-objectives)
-- [System Features](#-system-features)
-  - [Admin](#-admin)
-  - [User](#-user)
-- [Technologies Used](#-technologies-used)
-- [How to Run the Project](#-how-to-run-the-project)
-- [Academic Information](#-academic-information)
+- [About the Project](#about-the-project)
+- [Project Objectives](#project-objectives)
+- [System Features](#system-features)
+  - [Admin](#admin)
+  - [User](#user)
+- [Technologies Used](#technologies-used)
+- [How to Run the Project](#how-to-run-the-project)
+- [Academic Information](#academic-information)
 
 ---
 
