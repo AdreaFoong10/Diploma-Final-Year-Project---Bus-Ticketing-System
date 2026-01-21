@@ -1,0 +1,9 @@
+INSERT INTO `bus` (`bus_number_plate`, `driver_id`, `route_id`, `bus_schedule_id`) VALUES
+('YVTQO3H',105,2,105),
+('H2MRZ6D',106,2,106),
+('Y1Y65VD',107,2,107)
+('V4N0Z86',108,2,108),
+('KNP5CKO',109,2,109),
+('VNXWOVO',110,2,110),
+('YWLMZD6',111,2,111),
+('NPCPDNM',112,2,112);

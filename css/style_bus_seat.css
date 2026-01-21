@@ -1,0 +1,162 @@
+.seat-container{
+	border:3px solid red;
+	display: grid;
+	grid-template-columns: 700px 400px auto;
+	margin-top:140px;
+}
+
+ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.row-1{
+	margin-top:20px;
+}
+
+.row-2{
+	margin-top:5px;
+}
+
+.row-3{
+	margin-top:10px;
+}
+
+.seat label{
+	text-align: center;
+	padding: 3px;
+	border-radius: 8px;
+	display: inline-block;
+	width: 40px;
+}
+
+input[type=checkbox]{
+	position: absolute;
+	opacity: 0;
+}
+
+input[type=checkbox]:hover{
+	cursor: pointer;
+}
+
+label:hover{
+	cursor: pointer;
+}
+
+input[type=checkbox]:checked + label{
+	background-color: #C0C0C0;  
+	padding:3px;
+}
+ol img{
+	transform: rotate(90deg);
+	margin-left:3px;
+}
+
+.vl {
+	margin:20px;
+	border-left: 3px solid black;
+	height: 110px;   
+}
+
+/* COLUMN */
+.columnOne{
+	display:flex;
+	border-right:3px solid red;
+}
+
+.columnTwo{
+	display:flex;
+	margin:10px;
+	border-right:3px solid red;
+	margin:0px;
+}
+
+.available{
+	margin-right:30px;
+	margin-top:20px;
+	margin-left:50px;
+}
+
+.unavailable{
+	margin-top:20px;
+}
+
+/* .columnThree{
+
+} */
+
+.info1, .info2{
+	margin-left:20px;
+}
+
+
+.fare-details{
+	margin-top:20px;
+	margin-left:20px;
+	font-size: 17px;
+	font-weight: bold;;
+}
+
+
+/* BUTTON CSS */
+.bookbtn{
+	position: absolute;
+	right:330px;
+	top:350px;
+}
+
+.btn:hover, .btnpay:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active, .btnpay:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #FF6766;
+    color: #FFF;
+    border-radius:100px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.btn::after , .btnpay::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after, .btnpay::after {
+    background-color: #fff;
+}
+
+.btn:hover::after,.btnpay:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.BpDp-dashed{
+    top: 300px;
+    position: absolute;
+    margin-left: 32px;
+    border: 0;
+    border-left: 2px dashed #979797;
+    padding-bottom: 1.3%;
+    margin-bottom: -10%;
+    float: left;
+    width: 3%;
+}

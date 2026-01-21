@@ -1,0 +1,14 @@
+INSERT INTO `driver` (`driver_id`, `driver_fullname`, `driver_contact_no`, `driver_licence_expiry_date`, `driver_email_address`) VALUES
+(139, 'Ahmad bin Rahim', '0198765432', '2024-06-30', 'ahmad.rahim@gmail.com'),
+(140, 'Sophie Lee Li Wei', '0187654321', '2025-09-15', 'sophie.lee@gmail.com'),
+(141, 'Lee Wei Jie', '0165432198', '2023-12-31', 'wj.lee@gmail.com'),
+(142, 'Khalid bin Ismail', '0198745632', '2025-05-20', 'khalid.ismail@gmail.com'),
+(143, 'Karen Lee Mei Ling', '0123456789', '2026-02-28', 'karen.lee@gmail.com'),
+(144, 'Ali bin Mohd Ali', '0198765432', '2024-08-15', 'ali.mohd@gmail.com'),
+(145, 'Rachel Wong Mei Ling', '0187654321', '2023-11-30', 'rachel.wong@gmail.com'),
+(146, 'Zara binti Rahman', '0198654321', '2025-04-15', 'zara.rahman@gmail.com'),
+(147, 'Ahmad bin Omar', '0198765432', '2026-01-31', 'ahmad.omar@gmail.com'),
+(148, 'Isabella Lim Wei Ling', '0165432198', '2024-12-31', 'isabella.lim@gmail.com'),
+(149, 'Siti binti Yusof', '0198745632', '2025-07-20', 'siti.yusof@gmail.com'),
+(150, 'Joshua Tan Chee Wei', '0123456789', '2026-04-30', 'joshua.tan@gmail.com'),
+(151, 'Nora binti Aziz', '0198765432', '2023-09-15', 'nora.aziz@gmail.com');

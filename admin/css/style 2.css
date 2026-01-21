@@ -1,0 +1,243 @@
+
+/* DashBoard Table CSS and Button CSS*/
+.recent-grid  {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 65% auto;
+}
+
+.card {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.card-header {
+    padding: 1rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+
+
+/* .card-header button is the original, Other is the additions */
+.card-header button, 
+.custom-file-upload, 
+input[type="submit"],
+input[type="button"],
+.pagination-class a {
+    background: var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border:  1px solid var(--main-color);
+}
+
+
+
+/* Input Type File  button CSS */
+input[type="file"] {
+    display: none;
+}
+
+input[type="submit"],
+input[type="button"] {
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.custom-file-upload:hover {
+    cursor: pointer;
+}
+/* ------------------------- */
+
+
+
+
+button:hover {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead tr {
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+thead td {
+    font-weight: 700;
+}
+
+td {
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    color: #222;
+}
+
+td .status {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+tr td:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.status.purple {
+    background: rebeccapurple;
+}
+
+.status.pink {
+    background: deeppink;
+}
+
+.status.orange {
+    background: orangered;
+}
+
+.card-red button {
+    background: var(--button-red);
+    border-radius: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border:  1px solid var(--button-red);
+}
+
+.card-green button{
+    background: var(--button-green);
+    border-radius: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border:  1px solid var(--button-green);
+}
+
+.card-gray button{
+    background: var(--button-grey);
+    border-radius: 10px;
+    color: #585858;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border:  1px solid var(--button-grey);
+}
+
+.card-gray button[type="submit"]{
+    background: var(--button-grey);
+    border-radius: 10px;
+    color: #585858;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border:  1px solid var(--button-grey);
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.customer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .7rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info img {
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.info h4 {
+    font-size: .8rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.info small {
+    font-weight: 600;
+    color: var(--text-grey);
+}
+
+.contact span {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: .5rem;
+    color: var(--main-color);
+}
+
+
+#nav-toggle {
+    display: none;
+}
+
+/*Nav toggle checked*/
+#nav-toggle:checked + .sidebar {
+    width: 70px;
+}
+
+#nav-toggle:checked + .sidebar .sidebar-brand,
+#nav-toggle:checked + .sidebar li {
+    padding-left: 1rem;
+    text-align: center;
+}
+
+#nav-toggle:checked + .sidebar li a {
+    padding-left: 0rem;
+}
+
+
+#nav-toggle:checked + .sidebar .sidebar-brand h2 span:last-child,
+#nav-toggle:checked + .sidebar li a span:last-child {
+    display: none;
+}
+
+#nav-toggle:checked ~ .main-content {
+    margin-left: 70px;
+}
+
+#nav-toggle:checked ~ .main-content header {
+    width: calc(100% - 70px);
+    left: 70px;
+}
+
+/*Nav toggle*/
+#nav-toggle {
+    display: none;
+}
+
+
+/* Animations or transactions */
+.main-content {
+    transition: margin-left 300ms;
+}
+
+.sidebar {
+    transition: width 300ms;
+}
+
+header {
+    transition: left 300ms;
+    background: #fff;
+}
+
+

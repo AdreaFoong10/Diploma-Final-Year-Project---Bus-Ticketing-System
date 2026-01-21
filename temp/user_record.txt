@@ -1,0 +1,30 @@
+INSERT INTO user (user_fullname, user_contact_no, user_email_address, username, user_password, user_pic)
+VALUES 
+  ('Muhammad Ali', '019-204 3245', 'muhammad.ali@gmail.com', 'johnse25', '25Db7599#', 'img/profile.png'),
+  ('Siti Aisyah', '012-345 6789', 'siti.aisyah@gmail.com', 'janesm', 'P@ssw0rd123', 'img/profile.png'),
+  ('Ahmad Hassan', '017-890 1234', 'ahmad.hassan@gmail.com', 'mjohnson12', 'mySecretPass', 'img/profile.png'),
+  ('Nurul Amira', '016-567 8901', 'nurul.amira@gmail.com', 'emilyb', 'StrongPassword456', 'img/profile.png'),
+  ('Mohd Faizal', '013-456 7890', 'mohd.faizal@gmail.com', 'davidlee', 'SecurePass123', 'img/profile.png'),
+  -- Add more rows here with fake Malaysian personal information
+  
+  ('Nurul Huda', '011-234 5678', 'nurul.huda@gmail.com', 'jenniferd', 'Password123!', 'img/profile.png'),
+  ('Lim Wei Jie', '018-987 6543', 'lim.weijie@gmail.com', 'robertw', 'Passw0rd!', 'img/profile.png'),
+  ('Norazimah Abdullah', '015-678 9012', 'norazimah.abdullah@gmail.com', 'oliviaj', 'StrongP@ss', 'img/profile.png'),
+  ('Azman Bin Ibrahim', '019-123 4567', 'azman.ibrahim@gmail.com', 'williamt', 'MySecr3t', 'img/profile.png'),
+  ('Nurul Hidayah', '017-654 3210', 'nurul.hidayah@gmail.com', 'sophiaa', 'Pa$$w0rd', 'img/profile.png'),
+  -- Add more rows here with fake Malaysian personal information
+  
+  ('Lim Chin Huat', '013-345 6789', 'lim.chinhuat@gmail.com', 'danielb', 'MyP@ssw0rd', 'img/profile.png'),
+  ('Nurul Afiqah', '016-789 0123', 'nurul.afiqah@gmail.com', 'emilyj', 'P@ssword123', 'img/profile.png'),
+  ('Mohd Azman', '011-876 5432', 'mohd.azman@gmail.com', 'matthewd', 'StrongP@ssw0rd', 'img/profile.png'),
+  ('Nurul Natasha', '018-567 8901', 'nurul.natasha@gmail.com', 'emmaw', 'Password!23', 'img/profile.png'),
+  ('Ahmad Faisal', '015-012 3456', 'ahmad.faisal@gmail.com', 'andrewt', 'Myp@ss123', 'img/profile.png'),
+  -- Add more rows here with fake Malaysian personal information
+  
+  ('Nurul Hidayah', '019-654 3210', 'nurul.hidayah@gmail.com', 'avaa', 'Secret@123', 'img/profile.png'),
+  ('Lim Wei Xiang', '017-234 5678', 'lim.weixiang@gmail.com', 'jamesb', 'P@ssw0rd!', 'img/profile.png'),
+  ('Norazlina Hassan', '013-987 6543', 'norazlina.hassan@gmail.com', 'charlotted', 'MyP@ssw0rd!', 'img/profile.png'),
+  ('Ahmad Hafiz Bin Mohd', '016-678 9012', 'ahmadhafiz.mohd@gmail.com', 'benjaminw', 'StrongP@ssw0rd!', 'img/profile.png'),
+  ('Nurul Izzati', '011-123 4567', 'nurul.izzati@gmail.com', 'miat', 'Password123!$', 'img/profile.png');
+  -- Add more rows here with fake Malaysian personal information
+

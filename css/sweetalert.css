@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Sweet Alert 2 CSS */
+body.swal2-shown > [aria-hidden="true"] {
+    transition: 0.1s filter;
+    filter: blur(10px) !important;
+  }
+
+  .swal2-title {
+    font-family: 'Poppins', sans-serif !important;
+  }
+  
+  .swal2-html-container {
+    font-family: 'Poppins', sans-serif !important;
+  }
+  
+  .swal2-confirm {
+    font-family: 'Poppins', sans-serif !important;
+    padding: .5rem 1rem !important;
+  }

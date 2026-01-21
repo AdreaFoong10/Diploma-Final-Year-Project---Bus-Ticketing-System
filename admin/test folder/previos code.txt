@@ -1,0 +1,208 @@
+  <?php
+            
+            if($title == "Staffs / Admins")
+            {
+             ?>
+                Swal.fire({
+                    title: 'Name <?php echo $name ?> have been deleted',
+                    icon: 'success',
+                    showConfirmButton: false,
+                    timer: 1500
+                }); 
+            <?php    
+            }
+
+        
+            ?>
+
+
+
+<script>
+        Swal.fire({
+            title: "Do you want to go back to List?",
+            icon: "question",
+            showCancelButton: true,
+            confirmButtonText: "Yes",
+            cancelButtonText: "No"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "/FYP/admin/staff.php";
+            }
+        })
+    </script>
+
+
+
+
+                // check if the title value is "schedule"
+                if($title_edit == "schedule") {
+                    $bus_schedule="active";
+                    $title ="Edit Bus Schedules";
+                    require_once $_SERVER['DOCUMENT_ROOT'] . '/FYP/admin/sidebar.php';
+                    require_once('./bus schedule/edit bus schedule.php');
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+ ?>
+        <script>
+            Swal.fire({
+                title: 'Do you want to save your changes?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Yes',
+                cancelButtonText: 'No'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire({
+                        <?php 
+
+                        ?>
+                        title: 'Data Have been saved !',
+                        icon: 'success',
+                        showConfirmButton: true,
+                        timer: 1500,
+                        willClose: () => {
+                            window.location.href = 'staff.php';
+                        }
+                    });
+                }
+            });
+        </script>
+        <?php
+
+
+
+
+
+
+
+
+
+
+
+
+        if($_FILES['change_pic']['size'] !=0)
+                                    {
+                                        $sql_update_pic = "UPDATE admin SET admin_picture = '$picture' WHERE admin_id = $admin_id ";
+                                        $conn->query($sql_update_pic);
+                                        move_uploaded_file($file_tmp, $upload_file);
+                                    }
+
+
+
+
+
+    // Get the uploaded file details
+        $file_name = $_FILES['change_pic']['name'];
+        $file_tmp = $_FILES['change_pic']['tmp_name'];
+        
+        
+
+         // Move the uploaded file to the server
+        $upload_dir = '/FYP/admin/pictures/';
+        $upload_file = $upload_dir . basename($file_name);
+        $valid_extensions = array('jpeg', 'jpg', 'png');
+        $file_ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
+        if (!in_array($file_ext, $valid_extensions)) {
+        }
+
+        
+        $picture = basename($file_name);
+
+
+
+
+
+
+
+
+
+
+         Swal.fire({
+                        
+                                <?php
+                                    
+                                    $sql_update = "UPDATE admin SET admin_fullname= '$admin_fullname', admin_username = '$admin_username',
+                                    admin_password = '$admin_password', admin_level = '$admin_level' WHERE admin_id = $admin_id";
+
+                                    $conn->query($sql_update);
+                                ?>
+                        title: 'Data Have been saved !',
+                        icon: 'success',
+                        showConfirmButton: true,
+                        timer: 1500,
+                        willClose: () => {
+                            
+                            window.location.href = 'staff.php';
+                        }
+                    });
+
+
+
+
+
+
+
+
+
+<?php 
+    if(isset($_POST['saveprofile']))
+    {
+        
+        
+        if (isset($_POST['admin_level'])) {
+            $admin_level = $_POST['admin_level'];
+        } else {
+            $admin_level = $row_edit['admin_level'];
+        }
+        
+
+        
+        $admin_username = $_POST['admin_username'];
+        $admin_fullname = $_POST['admin_fullname'];
+        $admin_password = $_POST['admin_password'];
+        ?>
+        <script>
+            Swal.fire({
+                title: 'Do you want to save your changes?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Yes',
+                cancelButtonText: 'No'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire({
+                                <?php
+                                    $sql_update = "UPDATE admin SET admin_fullname= '$admin_fullname', admin_username = '$admin_username',
+                                    admin_password = '$admin_password', admin_level = '$admin_level' WHERE admin_id = $admin_id";
+
+                                    $conn->query($sql_update);
+                                ?>
+                        title: 'Data Have been saved !',
+                        icon: 'success',
+                        showConfirmButton: true,
+                        timer: 1500,
+                        willClose: () => {
+                            
+                            window.location.href = 'staff.php';
+                            
+                        }
+                    });
+                }
+
+            });
+        </script>
+        <?php
+    }
+
+?>
