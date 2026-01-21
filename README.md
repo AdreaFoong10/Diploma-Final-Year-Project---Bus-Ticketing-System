@@ -89,10 +89,10 @@ The system emphasizes:
 
 This project was developed as a **group Final Year Project** by three members.
 
-|| Name | GitHub | Role / Contribution |
-|------|--------|-------------------|
-| Adrea | [@AdreaFoong10](https://github.com/AdreaFoong10) | Developed Admin module development, system management, database integration |
-| Han Chung | [---](---) | Developed the User module: payment processing, booking history, and other user-related tasks |
-| Qi Xiang | [@kana191](https://github.com/kana191) | Developed the User module: profile management, ticket search, login/logout functionality, and booking interface |
+| Name        | GitHub | Role / Contribution |
+|------------|--------|-------------------|
+| Adrea      | [@AdreaFoong10](https://github.com/AdreaFoong10) | Developed the Admin module: system management, database integration, and full admin functionality |
+| Han Chung  | ---    | Developed the User module: payment processing, booking history, and other user-related tasks |
+| Qi Xiang   | [@kana191](https://github.com/kana191) | Developed the User module: profile management, ticket search, login/logout functionality, and booking interface |
 
 ---
