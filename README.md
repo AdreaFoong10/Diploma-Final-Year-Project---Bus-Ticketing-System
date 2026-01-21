@@ -13,6 +13,7 @@ A **web-based bus ticket booking system** developed as a **Final Year Project (F
 - [Technologies Used](#technologies-used)
 - [How to Run the Project](#how-to-run-the-project)
 - [Academic Information](#academic-information)
+- [Project Report](#project-report)
 
 ---
 
@@ -72,5 +73,15 @@ The system emphasizes:
 - JavaScript
 - PHP
 - MySQL
+
+---
+
+## Project Report
+
+**Final Year Project Report**  
+[DCP5521_FYP_FINAL_REPORT_WEB_TRI2210 - INDIVIDUAL](Report/DCP5521_FYP_FINAL_REPORT_WEB_TRI2210%20-%20INDIVIDUAL.pdf)
+
+>  **Academic Disclaimer**  
+> This report is shared for academic and learning purposes only.
 
 ---
