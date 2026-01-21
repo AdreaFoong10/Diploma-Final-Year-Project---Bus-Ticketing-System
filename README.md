@@ -11,8 +11,6 @@ A **web-based bus ticket booking system** developed as a **Final Year Project (F
   - [Admin](#admin)
   - [User](#user)
 - [Technologies Used](#technologies-used)
-- [How to Run the Project](#how-to-run-the-project)
-- [Academic Information](#academic-information)
 - [Project Report](#project-report)
 
 ---
