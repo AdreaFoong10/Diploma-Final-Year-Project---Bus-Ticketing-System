@@ -12,6 +12,7 @@ A **web-based bus ticket booking system** developed as a **Final Year Project (F
   - [User](#user)
 - [Technologies Used](#technologies-used)
 - [Project Report](#project-report)
+- [Project Team](#project-team)
 
 ---
 
@@ -81,5 +82,17 @@ The system emphasizes:
 
 >  **Academic Disclaimer**  
 > This report is shared for academic and learning purposes only.
+
+---
+
+## Project Team
+
+This project was developed as a **group Final Year Project** by three members.
+
+|| Name | GitHub | Role / Contribution |
+|------|--------|-------------------|
+| Adrea | [@AdreaFoong10](https://github.com/AdreaFoong10) | Developed Admin module development, system management, database integration |
+| Han Chung | [---](---) | Developed the User module: payment processing, booking history, and other user-related tasks |
+| Qi Xiang | [@kana191](https://github.com/kana191) | Developed the User module: profile management, ticket search, login/logout functionality, and booking interface |
 
 ---
