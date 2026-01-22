@@ -1,4 +1,4 @@
-# 🚌 CometBus – Online Bus Ticket Booking System
+# CometBus – Online Bus Ticket Booking System
 
 A **web-based bus ticket booking system** developed as a **Final Year Project (FYP)** to improve the efficiency, convenience, and clarity of bus ticket reservations.
 
