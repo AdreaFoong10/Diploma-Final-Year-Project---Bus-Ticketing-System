@@ -81,7 +81,7 @@ This project was developed as a **group Final Year Project** by three members.
 | Name        | GitHub | Role / Contribution |
 |------------|--------|-------------------|
 | Adrea      | [@AdreaFoong10](https://github.com/AdreaFoong10) | Developed the Admin module: system management, database integration, and full admin functionality |
-| Han Chung  | ---    | Developed the User module: payment processing, booking history, and other user-related tasks |
+| Han Chung  | [@hantay0415](https://github.com/hantay0415)    | Developed the User module: payment processing, booking history, and other user-related tasks |
 | Qi Xiang   | [@kana191](https://github.com/kana191) | Developed the User module: profile management, ticket search, login/logout functionality, and booking interface |
 
 ---
